@@ -1,0 +1,5 @@
+# Ignore all minified JS files anywhere
+*.min.js
+
+# Dependencies
+node_modules/
