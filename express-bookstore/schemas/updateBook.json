@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "amazon_url": { "type": "string", "format": "uri" },
+    "author": { "type": "string", "minLength": 1 },
+    "language": { "type": "string", "minLength": 1 },
+    "pages": { "type": "integer", "minimum": 1 },
+    "publisher": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "year": { "type": "integer", "minimum": 1000, "maximum": 9999 }
+  },
+  "required": [],
+  "minProperties": 1,
+  "additionalProperties": false
+}
